@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" async></script>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1 class="question" id="question">What is the most used programming language in 2019 ?</h1>
+            <form method="post" action="">
+                <ul class="list">
+                    <li class="itemList">
+                        <input type="radio" value="Java" id="a" name="answer" class="answer">
+                        <label for="a" class="a_text" id="a_answer">Java</label>
+                    </li>
+                    <li class="itemList">
+                        <input type="radio" value="C" id="b" name="answer" class="answer">
+                        <label for="b" class="b_text" id="b_answer">C</label>
+                    </li>
+                    <li class="itemList">
+                        <input type="radio" value="Python" id="c" name="answer" class="answer">
+                        <label for="c" class="c_text" id="c_answer">Python</label>
+                    </li>
+                    <li class="itemList">
+                        <input type="radio" value="JavaScript" id="d" name="answer" class="answer">
+                        <label for="d" class="d_text" id="d_answer">JavaScript</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <input type="submit" value="Submit" class="submit" id="submit">
+    </div>
+</body>
+</html>
